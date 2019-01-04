@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>INM220 Soundboard</title>
+    <link rel = "stylesheet"
+    href = "css/reset.css" />
+    <link rel = "stylesheet"
+    href = "css/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a data-instrument="stage1" href="#stage1">Mario</a>
+        <a data-instrument="stage2" href="#stage2">Legend of Zelda</a>
+        <a data-instrument="stage3" href="#stage3">Sonic</a>
+      </nav>
+    </header>
+    <section id="stage1" class="sounds"> <!-- Mario section -->
+      <p> <!-- section description -->
+        Mario is an iconic Nintendo intellectual property and a leading
+        franchise in the 3D platforming genre, landing their most recent
+        main-series title in 2017, <i>Super Mario Odyssey</i>. The franchise
+        consists of a large cast of staple characters, including Luigi,
+        Toad, Peach, and Yoshi.
+      </p>
+        <ul>
+          <li>
+            <a data-sound="Mario" class="sound">Mario</a>
+            <paragraph>
+              Mario saying "Here we go!", taken
+              from a sound clip in <i>Mario Kart Wii.</i>
+            </paragraph>
+          </li>
+          <li>
+            <a data-sound="Luigi" class="sound">Luigi</a>
+            <paragraph>
+              Luigi saying "Let's-a-go!", taken
+              from a sound clip in <i>Mario Kart Wii.</i>
+            </paragraph>
+          </li>
+          <li>
+            <a data-sound="Toad" class="sound">Toad</a>
+            <paragraph>
+              Toad saying "O-Kay!", taken
+              from a sound clip in <i>Mario Kart Wii.</i>
+            </paragraph>
+          </li>
+          <li>
+            <a data-sound="Peach" class="sound">Peach</a>
+            <paragraph>
+              Princess "Toadstool" Peach saying "Let's go!", taken
+              from a sound clip in <i>Mario Kart Wii.</i>
+            </paragraph>
+          </li>
+          <li>
+            <a data-sound="Yoshi" class="sound">Yoshi</a>
+            <paragraph>
+              A sound clip of Yoshi cheering, taken
+              from <i>Mario Kart Wii.</i>
+            </paragraph>
+          </li>
+        </ul>
+    </section>
+    <section id="stage2" class="sounds"> <!-- LoZ section -->
+        <p> <!-- section description -->
+          The Legend of Zelda (The LoZ) is an iconic Nintendo intellectual
+          property that boasts its intricate lore and fantasy elements. They
+          possess a long list of memorable soundtracks and themes, and across
+          many games, they feature many unforgettable characters, such as
+          Fi and Skull Kid.
+        </p>
+        <ul>
+          <li>
+            <a data-sound="Link" class="sound">Link</a>
+            <paragraph>
+              Toon Link beckoning "Come on!", a player command used to
+              complete a puzzle in <i>The LoZ: The Wind Waker.</i>
+            </paragraph>
+          </li>
+          <li>
+            <a data-sound="Zelda" class="sound">Zelda</a>
+            <paragraph>
+              Zelda saying "Hey!". A voice clip from <i>The LoZ: Skyward Sword.</i>
+            </paragraph>
+          </li>
+          <li>
+            <a data-sound="Fi" class="sound">Fi</a>
+            <paragraph>
+              A sound clip of Fi when speaking, taken from <i>The LoZ: Skyward
+                Sword.</i>
+            </paragraph>
+          </li>
+          <li>
+            <a data-sound="SkullKid" class="sound">Skull Kid</a>
+            <paragraph>
+              The Skull Kid laughing playfully. A sound clip taken from <i>The LoZ:
+              Majora's Mask.</i>
+            </paragraph>
+          </li>
+          <li>
+            <a data-sound="NewItem" class="sound">Fanfare</a>
+            <paragraph>
+              A rendition of the iconic fanfare that typically plays after
+              Link acquires new items, taken from <i>The LoZ: Skyward Sword.</i>
+            </paragraph>
+          </li>
+        </ul>
+    </section>
+    <section id="stage3" class="sounds"> <!-- Sonic section -->
+      <p> <!-- section description -->
+          Sonic is an intellectual property of SEGA and one of their
+          most iconic animal mascots. Sonic the Hedgehog is accompanied
+          by other anthropomorphic companions along his journey, including
+          Tails the Fox, Knuckles the Echidna, Shadow the Hedgehog, and
+          Rouge the Bat.
+      </p>
+      <ul>
+        <li>
+          <a data-sound="Sonic" class="sound">Sonic</a>
+          <paragraph>
+            Sonic saying "Chaos Control!", taken from a sound clip in
+            <i>Sonic Adventure 2: Battle.</i>
+          </paragraph>
+        </li>
+        <li>
+          <a data-sound="Tails" class="sound">Tails</a>
+          <paragraph>
+            Tails "Miles" Prower saying "Yeah, I won!", taken from a sound
+            clip in <i>Sonic Adventure 2: Battle.</i>
+          </paragraph>
+        </li>
+        <li>
+          <a data-sound="Knuckles" class="sound">Knuckles</a>
+          <paragraph>
+            Knuckles saying "Hmph, not as strong as I thought you were", taken
+            from a sound clip in <i>Sonic Adventure 2: Battle.</i>
+          </paragraph>
+        </li>
+        <li>
+          <a data-sound="Shadow" class="sound">Shadow</a>
+          <paragraph>
+            Shadow saying "Ultimate Victory", taken from a sound clip in
+            <i>Sonic Adventure 2: Battle.</i>
+          </paragraph>
+        </li>
+        <li>
+          <a data-sound="Rouge" class="sound">Rouge</a>
+          <paragraph>
+            Rouge saying "I won't lose to the likes of you", taken from a
+            sound clip in <i>Sonic Adventure 2: Battle.</i>
+          </paragraph>
+        </li>
+      </ul>
+    </section>
+    <footer> <!-- header and footer are the same -->
+      <nav>
+        <a data-instrument="stage1" href="#stage1">Mario</a>
+        <a data-instrument="stage2" href="#stage2">Legend of Zelda</a>
+        <a data-instrument="stage3" href="#stage3">Sonic</a>
+      </nav>
+    </footer>
+
+  <!-- SFX -->
+  <!--http://www.mariomayhem.com/downloads/sounds/-->
+  <audio data-sound="Mario" src="sounds/mario/mario_here_we_go.wav"></audio>
+  <audio data-sound="Luigi" src="sounds/mario/luigi_lets_go.mp3"></audio>
+  <audio data-sound="Toad" src="sounds/mario/toad_ok.mp3"></audio>
+  <audio data-sound="Peach" src="sounds/mario/peach_lets_go.mp3"></audio>
+  <audio data-sound="Yoshi" src="sounds/mario/yoshi_1.mp3"></audio>
+  <!--http://noproblo.dayjo.org/ZeldaSounds/-->
+  <audio data-sound="Link" src="sounds/loz/WW_Link_Call.mp3"></audio>
+  <audio data-sound="Zelda" src="sounds/loz/ZSS_Zelda_Hey1.mp3"></audio>
+  <audio data-sound="Fi" src="sounds/loz/ZSS_Fi_Talk_Sample2.mp3"></audio>
+  <audio data-sound="SkullKid" src="sounds/loz/MM_SkullKid_Laugh_Play.mp3"></audio>
+  <audio data-sound="NewItem" src="sounds/loz/ZSS_Fanfare_Item.mp3"></audio>
+  <!--https://www.sounds-resource.com/gamecube/sa2b/-->
+  <audio data-sound="Sonic" src="sounds/sonic/Sonic.mp3"></audio>
+  <audio data-sound="Tails" src="sounds/sonic/Tails.mp3"></audio>
+  <audio data-sound="Knuckles" src="sounds/sonic/Knuckles.mp3"></audio>
+  <audio data-sound="Shadow" src="sounds/sonic/Shadow.mp3"></audio>
+  <audio data-sound="Rouge" src="sounds/sonic/Rouge1.mp3"></audio>
+  <script src="audio.js"></script>
+  </body>
+</html>

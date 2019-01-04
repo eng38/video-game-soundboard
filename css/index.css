@@ -1,0 +1,91 @@
+/* index.css for Resturant Web Design */
+html, body {
+  font-family: sans-serif;
+  height: 100vh;
+}
+nav {
+}
+header { /* top nav */
+  top: 0;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  padding: 20px;
+  width: 100vw;
+  background-color: #252525;
+  box-shadow: 0 0 15px 8px rgba(40,40,40,.6);
+}
+footer { /* bottom nav */
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  padding: 20px;
+  width: 100vw;
+  background-color: #252525;
+  box-shadow: 0 0 15px 8px rgba(40,40,40,.6);
+}
+a {
+  align-content: center;
+  text-decoration: none;
+  color: white;
+}
+nav a {
+  padding: 0 40px 0 50px;
+}
+ul { /* list of sound clips */
+  list-style: none;
+}
+section li {
+  display: inline-block; /* horizontal lists */
+  vertical-align: top; /* align list elements across the top */
+  width: 160px;
+  margin: 0 5px 0 5px; /* gutters */
+}
+i {
+  color: crimson;
+}
+li a { /* sound buttons */
+  color: white;
+  display: block;
+  padding: 25px 0 25px 0;
+  font-weight: bold;
+  background-color: #252525;
+  border-radius: 10px;
+}
+paragraph { /* sound descriptions */
+  display: block; /* not as an in-line element */
+  padding: 20px 10px 20px 10px;
+  margin: 10px 0 50px 0;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: .7em;
+  /*text-align: left; optional*/
+}
+p { /* section description */
+  padding: 20px;
+  margin: 130px 280px 25px 280px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: .7em;
+}
+.sounds { /* all sections */
+  text-align: center;
+  overflow: auto; /* no scroll bar unless necessary */
+  background-position: center;
+}
+#stage1 { /* Mario section */
+  display: block;
+  background-image: url("../images/m1.jpg");
+  height: 100vh;
+}
+#stage2 { /* LoZ section */
+  display: none; /* default, manipulate with js */
+  background-image: url("../images/l2.jpg");
+  height: 100vh;
+}
+#stage3 { /* Sonic Section */
+  display: none; /* default, manipulate with js */
+  background-image: url("../images/s3.jpg");
+  height: 100vh;
+}
